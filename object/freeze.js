@@ -7,11 +7,8 @@ let person1 = {
 
   Object.freeze(person1);
   person1.age=55
-// let person2 ={
-//     firstName: "Ajay",
-//     lastName: "prakash"
-// };
-// Object.assign(person1,person2);.
-console.log(person1);
+  person1.address=1/20
 
-// It will freeze the object and cannot change their values
+console.log(person1);  //Result =>{ firstName: 'John', lastName: 'Doe', age: 50, eyeColor: 'blue' }
+
+// It will freeze the object and cannot change their values or delete items or add items
