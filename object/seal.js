@@ -11,4 +11,4 @@ let person1 = {
 
 console.log(person1);  //Result =>{ firstName: 'John', lastName: 'Doe', age: 55, eyeColor: 'blue' }
 
-// It will freeze the object and can change their values and cannot delete items or add items
+// It will freeze the object and can change their values and cannot delete properties or add properties
