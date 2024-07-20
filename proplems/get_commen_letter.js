@@ -1,4 +1,4 @@
-const elements = ['a', 'b', 'a', 'c', 'b', 'b'];
+const elements = ['a','a','b','b','c','d','e'];
 
 let highCount = (arr) => {
     let count = {};
@@ -13,15 +13,19 @@ let highCount = (arr) => {
             count[letters] = 1;
         }
         // console.log(count[letters]);
-        if(count[letters]>maxCount){
-            maxCount=count[letters];
-            maxLetter=letters
+        if (count[letters] > maxCount) {
+            maxCount = count[letters];
+            maxLetter = [letters]
+            // console.log(maxLetter);
+            
+        }else if(count[letters] ===maxCount){
+            maxLetter.push(letters)
+            
         }
     });
     // console.log(count);
     // console.log(maxCount);
     console.log(maxLetter);
+
 }
 highCount(elements)
-
-//output =>'b'
