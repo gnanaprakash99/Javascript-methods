@@ -5,3 +5,5 @@ let reverseOrder=(arr)=>{
     console.log(reverse);
 };
 reverseOrder(numbers)
+
+// REsult => [ 9, 8, 7, 6, 5, 4, 3, 2, 1 ]

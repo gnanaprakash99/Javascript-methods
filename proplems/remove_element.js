@@ -6,3 +6,5 @@ let removeExtraElement=(arr)=>{
 
 };
 removeExtraElement(input)
+
+// Result => [ 'a', 'b', 'p', 'c' ]

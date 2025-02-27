@@ -20,3 +20,11 @@ let getNameInOrder = (array) => {
     console.log("output", result);
 };
 getNameInOrder(names);
+
+// Result => {
+//     A: ['Alice', 'Ajay'],
+//     B: ['Bob', 'Bhuvan'],
+//     C: ['Charlie'],
+//     D: ['David'],
+//     Others: ['Eve', 'Frank', 'Kiran']
+// }
